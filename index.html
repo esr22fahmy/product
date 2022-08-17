@@ -1,0 +1,66 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+
+
+        <div class="container py-5 text-info">
+
+            <label class="form-label">Product Name</label>
+            <input id="namePro" type="text" class="form-control mb-4 ">
+            <div id="alertName" class="alert-danger mb-4  d-none  "> please enter correct name</div>
+
+            <label class="form-label">Product Price</label>
+            <input id="Price" type=" number" class="form-control mb-4">
+            <div id="alertPrice" class="alert-danger mb-4  d-none "> please enter just number</div>
+
+            <label class="form-label">Product Category</label>
+            <input id="Category"  type="text" class="form-control mb-4">
+            <div id="alertCategory" class="alert-danger mb-4  d-none "> please enter just </div>
+
+
+            <label class="form-label">Product Description</label>
+            <textarea id="Description"  type="text" class="form-control mb-4"></textarea>
+
+            <button id="btnProduct" class="mb-3" disabled>Add Product</button>
+
+            
+            <input id="inSearch" class="form-control w-50 m-auto" placeholder="Search Product">
+
+
+            <table class="table mt-5">
+                <thead class="text-info">
+                    <th>index</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th class="text-warning">Update Product</th>
+                    <th class="text-danger">Delete Product</th>
+                    
+                </thead>
+
+
+                <tbody id="tableBody">
+                    <!-- <td><button  class="del btn-danger" >delete</button></td> -->
+
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+
+
+
+
+     
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>
